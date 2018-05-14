@@ -1,0 +1,53 @@
+[2018-05-12 23:31:29.583] [jointLog] [info] parsing read library format
+[2018-05-12 23:31:29.583] [jointLog] [info] There is 1 library.
+[2018-05-12 23:31:29.680] [jointLog] [info] Loading Quasi index
+[2018-05-12 23:31:29.681] [jointLog] [info] Loading 32-bit quasi index
+[2018-05-12 23:31:31.501] [jointLog] [info] done
+[2018-05-12 23:31:31.501] [jointLog] [info] Index contained 35448 targets
+[2018-05-12 23:31:32.902] [jointLog] [info] Automatically detected most likely library type as ISR
+[2018-05-12 23:57:47.503] [jointLog] [info] Computed 42751 rich equivalence classes for further processing
+[2018-05-12 23:57:47.503] [jointLog] [info] Counted 89950905 total reads in the equivalence classes 
+[2018-05-12 23:57:47.506] [jointLog] [info] Mapping rate = 69.1278%
+
+[2018-05-12 23:57:47.506] [jointLog] [info] finished quantifyLibrary()
+[2018-05-12 23:57:47.511] [jointLog] [info] Starting optimizer
+[2018-05-12 23:57:47.536] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2018-05-12 23:57:47.537] [jointLog] [info] iteration = 0 | max rel diff. = 4
+[2018-05-12 23:57:47.550] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2018-05-12 23:57:47.503] [fileLog] [info] 
+At end of round 0
+==================
+Observed 130122603 total fragments (130122603 in most recent round)
+
+[2018-05-13 00:00:39.461] [jointLog] [info] Computed expected counts (for bias correction)
+[2018-05-13 00:00:39.463] [jointLog] [info] processed bias for 0.0% of the transcripts
+[2018-05-13 00:00:51.492] [jointLog] [info] processed bias for 10.0% of the transcripts
+[2018-05-13 00:01:02.308] [jointLog] [info] processed bias for 20.0% of the transcripts
+[2018-05-13 00:01:14.520] [jointLog] [info] processed bias for 30.0% of the transcripts
+[2018-05-13 00:01:27.238] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2018-05-13 00:01:38.292] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2018-05-13 00:01:47.617] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2018-05-13 00:02:03.595] [jointLog] [info] processed bias for 70.0% of the transcripts
+[2018-05-13 00:02:16.363] [jointLog] [info] processed bias for 80.0% of the transcripts
+[2018-05-13 00:02:29.409] [jointLog] [info] processed bias for 90.0% of the transcripts
+[2018-05-13 00:02:35.859] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2018-05-13 00:02:36.006] [jointLog] [info] iteration = 100 | max rel diff. = 0.138492
+[2018-05-13 00:02:36.155] [jointLog] [info] iteration = 200 | max rel diff. = 0.0771961
+[2018-05-13 00:02:36.301] [jointLog] [info] iteration = 300 | max rel diff. = 0.0412621
+[2018-05-13 00:02:36.442] [jointLog] [info] iteration = 400 | max rel diff. = 0.0294478
+[2018-05-13 00:02:36.584] [jointLog] [info] iteration = 500 | max rel diff. = 0.0253348
+[2018-05-13 00:02:36.716] [jointLog] [info] iteration = 600 | max rel diff. = 0.0228768
+[2018-05-13 00:02:36.848] [jointLog] [info] iteration = 700 | max rel diff. = 0.0216216
+[2018-05-13 00:02:36.973] [jointLog] [info] iteration = 800 | max rel diff. = 0.0178124
+[2018-05-13 00:02:37.109] [jointLog] [info] iteration = 900 | max rel diff. = 0.0141775
+[2018-05-13 00:02:37.245] [jointLog] [info] iteration = 1000 | max rel diff. = 0.0140625
+[2018-05-13 00:02:37.382] [jointLog] [info] iteration = 1100 | max rel diff. = 0.0136379
+[2018-05-13 00:02:37.535] [jointLog] [info] iteration = 1200 | max rel diff. = 0.0107568
+[2018-05-13 00:02:37.625] [jointLog] [info] iteration = 1261 | max rel diff. = 0.00976244
+[2018-05-13 00:02:37.626] [jointLog] [info] Finished optimizer
+[2018-05-13 00:02:37.626] [jointLog] [info] writing output 
+
+[2018-05-13 00:02:37.681] [jointLog] [warning] NOTE: Read Lib [( /Volumes/EBSExtDrive/RNAseq/N2_S1_L005/N2_S1_L005_01.fastq, /Volumes/EBSExtDrive/RNAseq/N2_S1_L005/N2_S1_L005_02.fastq )] :
+
+Greater than 5% of the fragments disagreed with the provided library type; check the file: /Users/emilybeckettsward/Desktop/emilysalmonrun/quants/N2_S1_L005_quant/lib_format_counts.json for details
+

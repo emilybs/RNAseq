@@ -1,0 +1,54 @@
+[2018-05-13 06:42:38.535] [jointLog] [info] parsing read library format
+[2018-05-13 06:42:38.535] [jointLog] [info] There is 1 library.
+[2018-05-13 06:42:38.675] [jointLog] [info] Loading Quasi index
+[2018-05-13 06:42:38.676] [jointLog] [info] Loading 32-bit quasi index
+[2018-05-13 06:42:41.392] [jointLog] [info] done
+[2018-05-13 06:42:41.392] [jointLog] [info] Index contained 35448 targets
+[2018-05-13 06:42:44.042] [jointLog] [info] Automatically detected most likely library type as ISR
+[2018-05-13 07:10:02.431] [fileLog] [info] 
+At end of round 0
+==================
+Observed 135664300 total fragments (135664300 in most recent round)
+
+[2018-05-13 07:10:02.430] [jointLog] [info] Computed 43386 rich equivalence classes for further processing
+[2018-05-13 07:10:02.430] [jointLog] [info] Counted 87525195 total reads in the equivalence classes 
+[2018-05-13 07:10:02.434] [jointLog] [info] Mapping rate = 64.516%
+
+[2018-05-13 07:10:02.434] [jointLog] [info] finished quantifyLibrary()
+[2018-05-13 07:10:02.438] [jointLog] [info] Starting optimizer
+[2018-05-13 07:10:02.462] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2018-05-13 07:10:02.464] [jointLog] [info] iteration = 0 | max rel diff. = 11.0397
+[2018-05-13 07:10:02.476] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2018-05-13 07:12:51.593] [jointLog] [info] Computed expected counts (for bias correction)
+[2018-05-13 07:12:51.603] [jointLog] [info] processed bias for 0.0% of the transcripts
+[2018-05-13 07:13:04.804] [jointLog] [info] processed bias for 10.0% of the transcripts
+[2018-05-13 07:13:18.284] [jointLog] [info] processed bias for 20.0% of the transcripts
+[2018-05-13 07:13:30.936] [jointLog] [info] processed bias for 30.0% of the transcripts
+[2018-05-13 07:13:42.925] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2018-05-13 07:13:52.628] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2018-05-13 07:14:01.153] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2018-05-13 07:14:11.317] [jointLog] [info] processed bias for 70.0% of the transcripts
+[2018-05-13 07:14:23.444] [jointLog] [info] processed bias for 80.0% of the transcripts
+[2018-05-13 07:14:36.229] [jointLog] [info] processed bias for 90.0% of the transcripts
+[2018-05-13 07:14:43.769] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2018-05-13 07:14:43.907] [jointLog] [info] iteration = 100 | max rel diff. = 0.0990861
+[2018-05-13 07:14:44.048] [jointLog] [info] iteration = 200 | max rel diff. = 0.0589278
+[2018-05-13 07:14:44.186] [jointLog] [info] iteration = 300 | max rel diff. = 0.039891
+[2018-05-13 07:14:44.326] [jointLog] [info] iteration = 400 | max rel diff. = 0.0379654
+[2018-05-13 07:14:44.466] [jointLog] [info] iteration = 500 | max rel diff. = 0.0243349
+[2018-05-13 07:14:44.606] [jointLog] [info] iteration = 600 | max rel diff. = 0.0228204
+[2018-05-13 07:14:44.728] [jointLog] [info] iteration = 700 | max rel diff. = 0.0200248
+[2018-05-13 07:14:44.844] [jointLog] [info] iteration = 800 | max rel diff. = 0.0177153
+[2018-05-13 07:14:44.960] [jointLog] [info] iteration = 900 | max rel diff. = 0.0139244
+[2018-05-13 07:14:45.074] [jointLog] [info] iteration = 1000 | max rel diff. = 0.0128381
+[2018-05-13 07:14:45.187] [jointLog] [info] iteration = 1100 | max rel diff. = 0.0119363
+[2018-05-13 07:14:45.300] [jointLog] [info] iteration = 1200 | max rel diff. = 0.0108578
+[2018-05-13 07:14:45.414] [jointLog] [info] iteration = 1300 | max rel diff. = 0.0100767
+[2018-05-13 07:14:45.452] [jointLog] [info] iteration = 1334 | max rel diff. = 0.00944918
+[2018-05-13 07:14:45.453] [jointLog] [info] Finished optimizer
+[2018-05-13 07:14:45.453] [jointLog] [info] writing output 
+
+[2018-05-13 07:14:45.521] [jointLog] [warning] NOTE: Read Lib [( /Volumes/EBSExtDrive/RNAseq/UNC130_Sep7-2_S3_L005/UNC130_Sep7-2_S3_L005_01.fastq, /Volumes/EBSExtDrive/RNAseq/UNC130_Sep7-2_S3_L005/UNC130_Sep7-2_S3_L005_02.fastq )] :
+
+Greater than 5% of the fragments disagreed with the provided library type; check the file: /Users/emilybeckettsward/Desktop/emilysalmonrun/quants/UNC130_Sep7-2_S3_L005_quant/lib_format_counts.json for details
+

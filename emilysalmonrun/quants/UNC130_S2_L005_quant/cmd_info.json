@@ -1,0 +1,11 @@
+{
+    "salmon_version": "0.9.1",
+    "index": "elegans_index",
+    "libType": "A",
+    "mates1": "/Volumes/EBSExtDrive/RNAseq/UNC130_S2_L005/UNC130_S2_L005_01.fastq",
+    "mates2": "/Volumes/EBSExtDrive/RNAseq/UNC130_S2_L005/UNC130_S2_L005_02.fastq",
+    "gcBias": [],
+    "": "True",
+    "output": "/Users/emilybeckettsward/Desktop/emilysalmonrun/quants/UNC130_S2_L005_quant",
+    "auxDir": "aux_info"
+}

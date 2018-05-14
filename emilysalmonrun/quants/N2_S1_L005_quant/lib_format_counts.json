@@ -1,0 +1,21 @@
+{
+    "read_files": "( /Volumes/EBSExtDrive/RNAseq/N2_S1_L005/N2_S1_L005_01.fastq, /Volumes/EBSExtDrive/RNAseq/N2_S1_L005/N2_S1_L005_02.fastq )",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 0.9425497275430415,
+    "num_compatible_fragments": 84783201,
+    "num_assigned_fragments": 89950905,
+    "num_consistent_mappings": 247009427,
+    "num_inconsistent_mappings": 6966461,
+    "MSF": 0,
+    "OSF": 1016,
+    "ISF": 2883732,
+    "MSR": 0,
+    "OSR": 307101,
+    "ISR": 247009427,
+    "SF": 1518955,
+    "SR": 2253816,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}
