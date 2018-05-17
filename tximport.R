@@ -4,12 +4,102 @@
 # The above link is recommended here: https://master.bioconductor.org/packages/release/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html
 ################################################################################################################################################
 
-####EXAMPLE################################################
-#EBS import transcript estimates
+
+
+
+# Install packages --------------------------------------------------------
+
+#Uncomment if packages haven't been installed
+# source("https://bioconductor.org/biocLite.R")
+# biocLite("tximportData")
+# biocLite("TxDb.Celegans.UCSC.ce11.refGene")
+# biocLite("tximport")
+
+
+
+
+# Load packages into environment ------------------------------------------
+
 library(tximportData)
-dir <- system.file("extdata", package = "tximportData")
-list.files(dir)
-###########################################################
+
+
+
+
+# sample files ------------------------------------------------------------
+
+#sample 1: N2_S1_L005
+s1 <- "emilysalmonrun/quants/N2_S1_L005_quant/quant.sf"
+file.exists(s1)
+
+#sample 2: N2_S1_L005
+s2 <- "emilysalmonrun/quants/UNC130_S2_L005_quant/quant.sf"
+file.exists(s2)
+
+#sample 3: N2_S1_L005
+s3 <- "emilysalmonrun/quants/UNC130_Sep7-2_S3_L005_quant/quant.sf"
+file.exists(s3)
+
+files <- c(s1,s2,s3)
+
+
+# tx2gene dataframe -------------------------------------------------------
+
+#The reference for the below library is here: http://bioconductor.org/packages/3.7/data/annotation/html/TxDb.Celegans.UCSC.ce11.refGene.html
+#There are other libraries listed here: http://bioconductor.org/packages/3.7/data/annotation/
+
+library(TxDb.Celegans.UCSC.ce11.refGene)
+# note there is also TxDb.Celegans.UCSC.ce6.ensGene
+
+txdb <- TxDb.Celegans.UCSC.ce11.refGene
+k <- keys(txdb, keytype = "TXNAME")
+tx2gene <- select(txdb, k, "GENEID", "TXNAME")
+
+
+
+
+
+# Import Salmon Quants ----------------------------------------------------
+
+library(tximport)
+txi <- tximport(files, type = "salmon", tx2gene = tx2gene)
+names(txi)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ##########################################################
 #EBS import transcript estimates
