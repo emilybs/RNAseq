@@ -10,6 +10,7 @@
 # Install packages --------------------------------------------------------
 
 #Uncomment if packages haven't been installed
+#EBS below have been installed
 # source("https://bioconductor.org/biocLite.R")
 # biocLite("tximportData")
 # biocLite("TxDb.Celegans.UCSC.ce11.refGene")
@@ -21,22 +22,22 @@
 # Load packages into environment ------------------------------------------
 
 library(tximportData)
-
-
+library(TxDb.Celegans.UCSC.ce11.refGene)
+library(tximport)
 
 
 # sample files ------------------------------------------------------------
 
 #sample 1: N2_S1_L005
-s1 <- "emilysalmonrun/quants/N2_S1_L005_quant/quant.sf"
+s1 <- "emilysalmonrun2/quants/N2_S1_L005_quant/quant.sf"
 file.exists(s1)
 
 #sample 2: N2_S1_L005
-s2 <- "emilysalmonrun/quants/UNC130_S2_L005_quant/quant.sf"
+s2 <- "emilysalmonrun2/quants/UNC130_S2_L005_quant/quant.sf"
 file.exists(s2)
 
 #sample 3: N2_S1_L005
-s3 <- "emilysalmonrun/quants/UNC130_Sep7-2_S3_L005_quant/quant.sf"
+s3 <- "emilysalmonrun2/quants/UNC130_Sep7-2_S3_L005_quant/quant.sf"
 file.exists(s3)
 
 files <- c(s1,s2,s3)
